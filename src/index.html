@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="bg-[#171A1F]">
       <!-- Sets max-width to 1280px -->
-      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="w-full max-w-screen-xl px-4 sm:px-6 lg:px-10">
         <div class="flex h-16 items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
             <a
@@ -17,7 +18,7 @@
               href="/"
             >
               <img
-                class="block rounded-full w-10 h-10 aspect-square"
+                class="block rounded-full w-10"
                 src="/assets/imgs/GLE-logo.png"
                 alt="logo"
               />
@@ -30,7 +31,7 @@
               <ul class="flex items-center gap-6 text-sm">
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     About
@@ -39,7 +40,7 @@
 
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     Careers
@@ -48,7 +49,7 @@
 
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     History
@@ -57,7 +58,7 @@
 
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     Services
@@ -66,7 +67,7 @@
 
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     Projects
@@ -75,7 +76,7 @@
 
                 <li>
                   <a
-                    class="text-gray-500 transition hover:text-gray-500/75"
+                    class="text-teal-600 transition hover:text-gray-500/75"
                     href="/"
                   >
                     Blog
@@ -87,7 +88,7 @@
             <div class="flex items-center gap-4">
               <div class="block md:hidden">
                 <button
-                  class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                  class="rounded bg-transparent p-2 text-gray-400 transition hover:text-gray-600/90"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -110,29 +111,24 @@
         </div>
       </div>
     </header>
-    <!-- Page -->
-    <!-- <main class="w-full h-auto">
-      <figure class="relative">
-        <div>
-          <img
-            class="h-auto max-w-full"
-            src="/assets/imgs/brand-partners-logo.png"
-            alt="logo"
-          />
-        </div>
-        <figcaption
-          class="absolute px-4 text-2xl text-center text-justify-center w-full text-white bottom-1/2"
-        >
-          <p class="">This is a caption</p>
-        </figcaption>
-      </figure>
-    </main> -->
-    <div class="p-0 m-0 bg-[#171A1F] 2xl:px-28">
-      <img
-        class="w-full aspect-video"
-        src="/assets/imgs/temporary-hero-pic.png"
-      />
+    <!-- Video -->
+    <div class="p-0 m-0 bg-[#171A1F] 2xl:px-28 w-auto max-h-max">
+      <iframe
+        class="block aspect-video w-full shadow-2xl shadow-blue-900/25"
+        src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgoldenlionsesports%2Fvideos%2F167046912492060%2F&show_text=false&width=560&t=0"
+        style="border: none; overflow: hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        allowfullscreen="true"
+      ></iframe>
     </div>
+
+    <!-- Buffer -->
+    <div class="h-52 w-full bg-[#171A1F]"></div>
+
+    <!-- Meet The Team Page -->
 
     <!-- Hero Page -->
     <div class="bg-[#171A1F] relative isolate px-6 pt-14 lg:px-8 h-auto">
@@ -165,29 +161,22 @@
           "
         ></div>
       </div>
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div class="hidden sm:mb-8 sm:flex sm:justify-center"></div>
-        <div class="text-center">
-          <h1
-            class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+      <div class="flex flex-col ] py-32">
+        <h1
+          class="text-slate-50 text-center pb-4 text-2xl font-semibold md:text-3xl"
+        >
+          About Us
+        </h1>
+        <div class="flex flex-col sm:flex-row">
+          <p
+            class="text-slate-50 text-center self-center w-full sm:w-[45%] max-w-[90%] lg:max-w-[70%] sm:pb-0"
           >
-            Data to enrich your online business
-          </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Golden Lions Esports (GLE) at Central Philippines University is a
+            community driven by students with a passion for competitive gaming.
+            Founded in 2020, Golden Lions Esports offer a secure haven for
+            student-gamers to thrive, fostering skill development and lasting
+            friendships.
           </p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >Get started</a
-            >
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-              >Learn more <span aria-hidden="true">→</span></a
-            >
-          </div>
         </div>
       </div>
       <div
@@ -219,5 +208,7 @@
         ></div>
       </div>
     </div>
+
+    <div class="h-52 w-full bg-[#171A1F]"></div>
   </body>
 </html>
